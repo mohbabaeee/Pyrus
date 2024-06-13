@@ -1,0 +1,75 @@
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: url("./loginBg.jpg");
+  background-size: cover;
+
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+
+    p {
+      font-weight: 500;
+      font-size: larger;
+    }
+
+    .pic {
+      height: 120px;
+      width: 120px;
+      background: url(./Pyrus.png);
+      background-position: center;
+      background-size: cover;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 8px;
+
+      input {
+        font-size: 14px;
+        line-height: 200px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        height: 30px;
+        width: 160px;
+        padding: 6px;
+        box-sizing: border-box;
+        background-color: rgba(162, 162, 162, 0.514);
+        backdrop-filter: blur(0.5rem);
+        color: #ffffff69;
+        font-weight: 900;
+
+        &::placeholder {
+          color: #ffffff69;
+          font-weight: 500;
+        }
+      }
+
+      button {
+        border: none;
+        margin-top: 6px;
+        background-color: rgba(162, 162, 162, 0.514);
+        color: #bababa;
+        backdrop-filter: blur(0.5rem);
+        width: 40px;
+        padding-top: 5px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba(76, 76, 76, 0.514);
+        }
+      }
+    }
+  }
+}
