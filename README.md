@@ -1,7 +1,7 @@
 # Pyrus Chatroom (Not Finished)
 
-- React(Vite) - FireBase - Zustand
-- Not Responsive
+- React(Vite) - Firebase - Zustand
+- Not Mobile friendly
 
 -For now you just can Login/Signup\
 -See sample data\
@@ -9,6 +9,9 @@
 -Logout
 
 [![](https://img.shields.io/badge/Live_At-Vercel-green.svg)](https://pyrus-react.vercel.app/)
+Testing:
+Email: Test@gmail.com
+Password: testtest
 
 ---
 
