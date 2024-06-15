@@ -26,16 +26,14 @@ export default function Chat() {
     setText((prevText) => prevText + e.emoji);
   };
 
-  console.log(text);
-
   return (
     <div className="chat">
       <div className="top">
         <div className="user">
           <img src="./avatar.png" alt="" />
           <div className="texts">
-            <span>Asghar Salehi</span>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <span>اصغر صالحی</span>
+            <p>!کتاب لاتی 100 صفحست 99 صفحش رفاقت</p>
           </div>
         </div>
         <div className="icons">
@@ -48,24 +46,24 @@ export default function Chat() {
         <div className="message own">
           <div className="texts">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              ullam rem ipsam, magnam impedit illo incidunt quos ut,
-              reprehenderit autem porro cumque beatae animi? Illum debitis
-              commodi consequuntur in? Suscipit!
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
             </p>
-            <span>1 min ago</span>
+            <span>یک دقیقه قبل</span>
           </div>
         </div>
         <div className="message">
           <img src="./avatar.png" alt="" />
           <div className="texts">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              ullam rem ipsam, magnam impedit illo incidunt quos ut,
-              reprehenderit autem porro cumque beatae animi? Illum debitis
-              commodi consequuntur in? Suscipit!
+              Lلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
             </p>
-            <span>1 min ago</span>
+            <span>یک دقیقه قبل</span>
           </div>
         </div>
         <div className="message own">
@@ -75,35 +73,35 @@ export default function Chat() {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              ullam rem ipsam, magnam impedit illo incidunt quos ut,
-              reprehenderit autem porro cumque beatae animi? Illum debitis
-              commodi consequuntur in? Suscipit!
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
             </p>
-            <span>1 min ago</span>
+            <span>یک دقیقه قبل</span>
           </div>
         </div>
         <div className="message">
           <img src="./avatar.png" alt="" />
           <div className="texts">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              ullam rem ipsam, magnam impedit illo incidunt quos ut,
-              reprehenderit autem porro cumque beatae animi? Illum debitis
-              commodi consequuntur in? Suscipit!
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
             </p>
-            <span>1 min ago</span>
+            <span>یک دقیقه قبل</span>
           </div>
         </div>
         <div className="message own">
           <div className="texts">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              ullam rem ipsam, magnam impedit illo incidunt quos ut,
-              reprehenderit autem porro cumque beatae animi? Illum debitis
-              commodi consequuntur in? Suscipit!
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
             </p>
-            <span>1 min ago</span>
+            <span>یک دقیقه قبل</span>
           </div>
         </div>
         <div ref={endRef}></div>
@@ -116,7 +114,8 @@ export default function Chat() {
         </div>
         <input
           type="text"
-          placeholder="Type a message..."
+          dir="rtl"
+          placeholder="نوشتن پیام..."
           onChange={(e) => setText(e.target.value)}
           value={text}
         />
@@ -136,7 +135,7 @@ export default function Chat() {
           </div>
         </div>
         <button className="sendButton">
-          <SendHorizontal />
+          <SendHorizontal color="#121212" />
         </button>
       </div>
     </div>

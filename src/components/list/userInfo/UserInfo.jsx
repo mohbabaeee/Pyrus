@@ -6,7 +6,7 @@ export default function UserInfo() {
     <div className="userInfo">
       <div className="user">
         <img src="./Pyrus.png" alt="" />
-        <h2>Pyrus</h2>
+        <h1>𝖕𝖞𝖗𝖚𝖘</h1>
       </div>
       <div className="icons">
         <Ellipsis className="list-userinfo-icons" />

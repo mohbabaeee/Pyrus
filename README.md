@@ -1,3 +1,7 @@
-# Lama Dev Chat App Starter template
+# Pyrus Chatroom App (not finished)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- React(Vite) - FireBase - Zustand
+- not Responsive!
+  <------------->
+  [![](https://img.shields.io/badge/Live_At-Vercel-green.svg)](https://pyrus-react.vercel.app/)
+  <------------->
